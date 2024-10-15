@@ -1,0 +1,103 @@
+$font-weight-bold: 700;
+$font-weight-normal: 400;
+$color-black: black;
+$font-family-inter: "Inter", sans-serif;
+$color-blue: var(--color-blue);
+$color-white: var(--color-white);
+
+.title {
+  font-weight: $font-weight-bold;
+  color: $color-black;
+
+  &.bold {
+    font-size: clamp(1.8rem, 1.26rem + 2.275vw, 3.25rem); //52px
+    text-align: center;
+  }
+
+  &.bold2 {
+    font-size: 2rem; //32px
+  }
+
+  &.mobile {
+    font-size: 2.125rem; //34px
+  }
+
+  &.mobile2 {
+    font-size: 1.875rem; //30px
+  }
+
+  &.small {
+    font-size: 1.4375rem; //23px
+  }
+
+  &.post {
+    font-size: 2.25rem; //36px
+  }
+
+  &.postMobile {
+    font-size: 1.75rem; //28px
+  }
+}
+
+.paragraph {
+  font-weight: 500;
+  font-size: clamp(0.8rem, 0.679rem + 0.51vw, 1.125rem); // 18px
+  color: $color-black;
+
+  &.mobile {
+    font-size: 1.0625rem; // 17px
+  }
+}
+
+.smallParagraph {
+  font-family: $font-family-inter;
+  font-size: 14px;
+  font-weight: $font-weight-normal;
+  line-height: 16.94px;
+  text-align: left;
+}
+
+.link {
+  font-family: $font-family-inter;
+  font-weight: $font-weight-normal;
+  font-size: 0.9375rem; //15px
+  color: $color-blue;
+  margin-block: 2rem;
+}
+
+.label {
+  font-family: $font-family-inter;
+  font-size: .875rem;
+  font-weight: $font-weight-bold;
+}
+
+.btn {
+  border-radius: .25rem;
+  background-color: $color-blue;
+  font-weight: 600;
+  color: $color-white;
+
+  &.small {
+    width: 7rem; //112px
+    height: 2.6875rem;
+  }
+
+  &.medium {
+    // width: 9.0625rem; // 145px
+    height: 2.6rem;
+  }
+  &.mediumRegister {
+    width: 9.0625rem; // 145px
+    height: 2.6rem;
+  }
+
+  &.big {
+    width: 10.375rem; //166px
+    height: 4rem;
+  }
+
+  &.outline {
+    width: 8.3125rem; //133px
+    height: 2.6875rem;
+  }
+}
